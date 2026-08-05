@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Hub - Notices</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+.container{
+    display:flex;
+    min-height:100vh;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:250px;
+    background:#004080;
+    color:white;
+    padding:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:white;
+}
+
+.profile h3{
+    margin-top:10px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    margin:15px 0;
+}
+
+.sidebar ul li a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding:10px;
+    border-radius:5px;
+}
+
+.sidebar ul li a:hover{
+    background:#0066cc;
+}
+
+/* Main */
+
+.main{
+    flex:1;
+    padding:30px;
+}
+
+.main h1{
+    color:#004080;
+    margin-bottom:25px;
+}
+
+/* Notice Cards */
+
+.notice-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.notice-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.notice-left{
+    display:flex;
+    align-items:center;
+}
+
+.icon{
+    font-size:40px;
+    margin-right:20px;
+}
+
+.notice-text h2{
+    color:#004080;
+    margin-bottom:8px;
+}
+
+.notice-text p{
+    color:#555;
+}
+
+.read-btn{
+    background:#004080;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:5px;
+}
+
+.read-btn:hover{
+    background:#0066cc;
+}
+
+/* Bottom Button */
+
+.bottom{
+    text-align:center;
+    margin-top:30px;
+}
+
+.view-btn{
+    background:#004080;
+    color:white;
+    text-decoration:none;
+    padding:12px 30px;
+    border-radius:5px;
+}
+
+.view-btn:hover{
+    background:#0066cc;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2>STUDENT HUB</h2>
+
+<div class="profile">
+
+<img src="https://via.placeholder.com/80" alt="Student">
+
+<h3>Rishi Kesur</h3>
+
+</div>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="attendance.html">Attendance</a></li>
+<li><a href="notices.html">Notices</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+<li><a href="settings.html">Settings</a></li>
+<li><a href="login.html">Logout</a></li>
+
+</ul>
+
+</div>
+
+<!-- Main -->
+
+<div class="main">
+
+<h1>Notices</h1>
+
+<div class="notice-container">
+
+<div class="notice-card">
+
+<div class="notice-left">
+
+
+<div class="notice-text">
+
+<h2>Notice 1</h2>
+
+<p>Mid Semester Examination will start from 15 October 2026.</p>
+
+</div>
+
+</div>
+
+<a href="#" class="read-btn">Read More</a>
+
+</div>
+
+<div class="notice-card">
+
+<div class="notice-left">
+
+
+
+<div class="notice-text">
+
+<h2>Notice 2</h2>
+
+<p>Course Registration for the next semester is now open.</p>
+
+</div>
+
+</div>
+
+<a href="#" class="read-btn">Read More</a>
+
+</div>
+
+<div class="notice-card">
+
+<div class="notice-left">
+
+
+<div class="notice-text">
+
+<h2>Notice 3</h2>
+
+<p>Annual Technical Fest will be held on 20 November 2026.</p>
+
+</div>
+
+</div>
+
+<a href="#" class="read-btn">Read More</a>
+
+</div>
+
+</div>
+
+<div class="bottom">
+
+<a href="#" class="view-btn">View All Details</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

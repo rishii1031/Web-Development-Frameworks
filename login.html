@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Hub - Login</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#004080;
+    color:#fff;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:28px;
+}
+
+header a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    background:#0066cc;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+header a:hover{
+    background:#abb3b8;
+}
+
+.container{
+    width:100%;
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    width:380px;
+    background:white;
+    padding:35px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.login-box h2{
+    text-align:center;
+    color:#3a6c9e;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:18px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#004080;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2180de;
+}
+
+.links{
+    margin-top:20px;
+    text-align:center;
+}
+
+.links a{
+    color:#c5cfd3;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    background:#004080;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>STUDENT HUB</h1>
+
+<a href="index.html">HOME</a>
+
+</header>
+
+<div class="container">
+
+<div class="login-box">
+
+<h2>LOGIN</h2>
+
+<form>
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Password</label>
+<input type="password" placeholder="Enter your password">
+
+<button>
+<a href="dashboard.html" class="login-btn" style="color: #fff;">LOGIN</a>
+</button>
+</form>
+
+<div class="links">
+
+<p>
+<a href="#">Forgot Password?</a>
+</p>
+
+<br>
+
+<p>
+Don't have an account?
+<a href="register.html">Register</a>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 STUDENT HUB. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
